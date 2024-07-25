@@ -339,6 +339,22 @@ footer p {
   .grid-card {
     grid-template-columns: 1fr;
   }
+
+  .cards:not(:last-child) {
+    margin-bottom: 35px;
+  }
+
+  .location-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .location-grid img {
+    display: none;
+  }
+
+  .location-grid .embed {
+    aspect-ratio: 18/10;
+  }
 }
 
 @media (max-width: 665px) {
